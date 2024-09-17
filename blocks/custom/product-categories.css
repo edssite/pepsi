@@ -1,4 +1,103 @@
-.product-categories-title > div:nth-last-of-type(2) > div h1 {
+
+.pepsi-product-section {
+    background-image: url('../../icons/pepsi-background.png');
+    margin: 0% !important;
+}
+.product-categories-title > div:nth-of-type(2) > div h1 {
     font-family: 'cervoneue-blackneue', sans-serif;
     font-size: 65px;
+    margin: 0% !important;
+    color: white;
+    padding-top: 50px;
 }
+
+.product-categories-title > div:nth-of-type(3) > div h1 {
+    font-family: 'cervoneue-blackneue', sans-serif;         
+    font-size: 25px;
+    margin: 0% !important;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.product-cards {
+    display: flex;
+}
+
+.product-cards > div > div {
+        margin:70px;
+
+}
+.product-cards > div > div > p{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically if needed */
+}
+.product-cards > div > div > p > picture img {
+    max-width: 167px !important;
+    max-height: 170px !important;
+    transition: filter 0.3s ease; /* Smooth transition for the hover effect */
+
+}
+
+.product-cards > div > div > p > picture img:hover {
+    filter: saturate(0.5); /* Adjust tint and saturation */
+}
+
+.product-cards > div > div h2 {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: 'sofia-pro-light', sans-serif;
+
+}
+
+.product-cards > div > div > p:last-child a  {
+    color:#0069AA;
+    font-family: 'sofia-pro-bold', sans-serif;
+    padding: 6px 3px;
+    font-size: 15px;
+    min-width: 180px;
+    background-color: white;
+
+}
+
+.product-cards > div > div > p:last-child a:hover {
+    background-color: #0069AA; /* Background color on hover */
+    color: white; /* Text color on hover */
+}
+
+.product-cards > div:first-child {
+    position: relative;
+    top: -75px; /* Adjust this value to move the div up */
+}
+
+.pepsi-product-section > div:nth-of-type(3) > div:first-child > div:nth-of-type(3){
+    position: relative;
+    top: -100px; /* Adjust this value to move the div up */
+}
+.pepsi-product-section > div:nth-of-type(3) > div:first-child > div:nth-of-type(4){
+    position: relative;
+    top: -100px; /* Adjust this value to move the div up */
+}
+
+.pepsi-product-section > div:nth-of-type(4) {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically if needed */
+}
+
+.pepsi-product-section > div:nth-of-type(4) > div:first-child > div:nth-of-type(2){
+    position: relative;
+    top: -75px; /* Adjust this value to move the div up */
+}
+
+.pepsi-product-section > div:nth-of-type(4) > div:first-child > div:nth-of-type(3){
+    position: relative;
+    top: -75px; /* Adjust this value to move the div up */
+}
+
+.section {
+    margin: 0px !important;
+}
+
