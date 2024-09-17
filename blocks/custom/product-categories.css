@@ -1,0 +1,4 @@
+.product-categories-title > div:nth-last-of-type(2) > div h1 {
+    font-family: 'cervoneue-blackneue', sans-serif;
+    font-size: 65px;
+}
