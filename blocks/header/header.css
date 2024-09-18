@@ -266,3 +266,14 @@ header nav .nav-sections ul > li > ul > li {
 header nav .nav-tools {
   grid-area: tools;
 }
+
+
+
+header nav .nav-sections .default-content-wrapper > ul > li h2 {
+  color: #0069aa;
+  font-size: 15px;
+  font-family: 'sofia-pro-bold', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
