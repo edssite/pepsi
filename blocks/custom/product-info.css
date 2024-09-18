@@ -1,0 +1,22 @@
+.product-title > div h1 {
+    text-align: left;
+    font-size: 100px;
+    font-weight: 600;
+    font-family: 'cervoneue-blackneue', sans-serif;
+    color: white;
+    margin: 0px !important;
+
+}
+
+.pepsi-product-info {
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+
+
+.product-image-wrapper {
+    margin: 0px !important;
+}
