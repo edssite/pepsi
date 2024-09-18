@@ -1,0 +1,156 @@
+.faq {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.faq > div:nth-child(3),
+.faq > div:nth-child(4),
+.faq > div:nth-child(5),
+.faq > div:nth-child(6) {
+    border-bottom: 4px solid #2fcdff;
+    margin: 5px 0;
+    border-radius: 5px;
+    max-width: 750px !important;
+}
+
+
+.faq > div:nth-child(3) > div:first-child h3,
+div:nth-child(4) > div:first-child h3,
+div:nth-child(5) > div:first-child h3,
+div:nth-child(6) > div:first-child h3{
+    color:white;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'cervoneue-blackneue', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.faq > div:nth-child(3) > div:last-child p,
+div:nth-child(4) > div:last-child p,
+div:nth-child(5) > div:last-child p,
+div:nth-child(6) > div:last-child p{
+    color:white;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'sofia-pro-regular', sans-serif;
+
+}
+
+.faq > div:nth-child(7) > div,
+div:nth-child(8) > div{
+    height: 50px !important;
+}
+
+.faq h3 {
+
+    font-size: 22pt;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0; /* Remove default margin */
+    justify-content: flex-start; /* Align items to the left */
+}
+
+.faq-container {
+    margin-bottom: 25px;
+}
+.faq h3:hover {
+    font-size: 22pt;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0; /* Remove default margin */
+    justify-content: flex-start; /* Align items to the left */
+}
+
+.faq h3::after {
+    content: "˃";
+    transition: transform 0.1s;
+    margin-left: auto;
+}
+
+.faq h3.active::after {
+    transform: rotate(90deg);
+}
+
+.faq p {
+    display: none;
+    padding: 10px;
+
+    margin: 0; /* Remove default margin */
+}
+
+.faq p:hover {
+    display: none;
+    padding: 10px;
+    margin: 0; /* Remove default margin */
+}
+
+.section {
+    border: none !important;
+}
+
+
+
+.faq-wrapper {
+    margin: 0px !important;
+    max-width: 750px !important;
+}
+
+.faq > div:first-child > div h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'cervoneue-blackneue', sans-serif;
+
+}
+
+
+.faq > div:nth-child(2) > div h1{
+    color: white;
+    font-size: 35px;
+    font-family: 'sofia-pro-bold', sans-serif;
+    text-transform: uppercase;
+    margin-top: 0px;
+
+}
+
+
+.faq > div:nth-child(7) > div h4{
+    color: white;
+    font-size: 16px;
+    font-family: 'sofia-pro-light', sans-serif;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.faq > div:nth-child(8){
+    display: flex;
+
+
+}
+
+
+.faq > div:nth-child(8) > div{
+    margin-right: 10px !important;
+    padding-top: 5px !important;
+
+
+}
+
+
+.faq > div:nth-child(8) > div:first-child{
+    color:white;
+    font-weight: 600;
+    font-family: 'cervoneue-blackneue', sans-serif;
+    font-size: 20px;
+
+
+
+}
