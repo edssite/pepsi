@@ -18,3 +18,63 @@ footer .footer p {
     padding: 40px 32px 24px;
   }
 }
+
+
+.footer-mobile > div {
+    display: flex;
+}
+
+
+.footer-mobile > div > div:last-child {
+  display: flex;
+}
+.footer-links > div {
+  display: flex;
+}
+
+
+.footer-mobile > div > div:last-child > p > picture img {
+  width: 35px;
+  height: 35px;
+}
+
+.footer-mobile-container, .footer-links-container {
+  display: flex !important;
+}
+
+.footer-links > div > div:last-child {
+  display: flex;
+}
+
+.footer-mobile > div > div:first-child h5 {
+  color: #0067a7;
+  font-size: 13px;
+  font-family: 'sofia-pro-regular', sans-serif;
+  font-weight: 400;
+  width: 150px;
+}
+
+.footer-links > div > div:last-child > h3 a{
+  color: #0067a7;
+  font-size: 15px;
+  font-family: 'sofia-pro-regular', sans-serif;
+  font-weight: 400;
+  margin: 10px;
+
+}
+
+.footer-links > div > div:last-child > h3{
+
+  margin: 0px !important;
+
+}
+
+.footer-links > div > div:first-child > p > picture img{
+height: 45px;
+width: 45px;
+}
+
+
+.footer-mobile {
+  margin-right: 70px;
+}
