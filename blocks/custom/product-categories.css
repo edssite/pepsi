@@ -3,11 +3,15 @@
     background-image: url('../../icons/pepsi-background.png');
     margin: 0% !important;
 }
+
+.product-categories-title {
+    background-color: red;
+}
 .product-categories-title > div:nth-of-type(2) > div h1 {
     font-family: 'cervoneue-blackneue', sans-serif;
     font-size: 65px;
     margin: 0% !important;
-    color: white;
+    color: yellow;
     padding-top: 50px;
 }
 
